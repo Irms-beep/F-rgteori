@@ -1,0 +1,64 @@
+<!DOCTYPE html> <html> <head>
+
+    <title>Exempel 1 navigation bar</title>
+    
+    <meta charset = "utf-8" />
+    
+    <link href = "navigation.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+   
+    </head>
+    <body>
+
+    
+    <header class="header">  
+    <h1>Färgteori 101</h1>
+    </header>
+    
+    <header class="mainmenu">
+    <ul>
+      <li><a href="index.html">Hem</a></li>
+      <li><a href="funfacts.html">Fun Facts</a></li>
+      <div class="dropdown">
+          <button class="dropbtn"> 3 Teorier
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <li><a href="farghjul.html">Färghjulet</a></li>
+            <li><a href="fargharmoni.html">Färgharmoni</a></li>
+            <li><a href="fargkontext.html">Färgkontext</a></li>
+          </div>
+    </ul>
+    
+    </header>
+    <div class="text">
+    <h2>Lite kort om färgteori</h2>
+    <p>
+    Färgteori är både vetenskapen och konsten att använda färg. Det förklarar
+    hur människor uppfattar färg; och de visuella effekterna av hur färger
+    blandas, matchar eller kontrasterar med varandra. Färgteori involverar
+    också de meddelanden som färger kommunicerar; och metoderna som används 
+    för att replikera färg.  Det finns mycket att lära sig inom ämnet men vi
+    ska hålla oss till de tre mest grundläggande kategorierna, färghjulet, 
+    färgharmoni och sammanhanget för hur färger används. 
+    </p>
+
+    <div class="div-content">
+        <img class="mySlides" src="imgslide1.jpg" height="250" width="400">
+        <img class="mySlides" src="imgslide2.jpg" height="250" width="400">
+        <img class="mySlides" src="imgslide3.jpg" height="250" width="400">
+        <button class="slider-button display-left" 
+    onclick="changeImage(-1)">&#129076;</button>
+        <button class="slider-button display-right" 
+    onclick="changeImage(1)">&#129078;</button>
+    </div>
+
+    <footer class="footer">
+    <p>All rights reserved - &#169; Copyright</p>
+    </footer>
+    
+    <script src="image-slider.js"></script>
+    </body>
+    
+    </html>
+    
