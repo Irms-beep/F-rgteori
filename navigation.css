@@ -109,3 +109,11 @@ p {
     position: relative;
     padding: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: none;
+      background-color: #daffd6;
+    }
+}
+
