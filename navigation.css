@@ -1,7 +1,7 @@
 body {
     font-family:"Century Gothic";
     text-align: center;
-    background-image: url("webb_background.jpg");
+    background-image: url("/img/webb_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,11 +22,11 @@ ul{
     justify-content: space-evenly;
 }
 
-.dropdown {
+.dropdown, .dropdown2 {
     float: left;
 }
 
-.dropdown .dropbtn {
+.dropdown .dropbtn, .dropdown2 .dropbtn2 {
     font-size: 16px;  
     border: none;
     outline: none;
@@ -37,7 +37,7 @@ ul{
     margin: 0;
 }
 
-.dropdown-content {
+.dropdown-content, .dropdown-content2 {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -46,7 +46,7 @@ ul{
     z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content a, .dropdown-content2 a {
     float: none;
     color: black;
     padding: 12px 16px;
@@ -55,12 +55,12 @@ ul{
     text-align: left;
 }
   
-.dropdown-content a:hover {
+.dropdown-content a:hover, .dropdown-content2 a:hover {
     background-color: #b0ffa9;
     color: black;
 }
   
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content, .dropdown2:hover .dropdown-content2 {
     display: block;
 }
 
@@ -77,7 +77,7 @@ li a{
     text-decoration: none;
 }
 
-li a:hover, .dropbtn:hover{
+li a:hover, .dropbtn:hover, .dropbtn2:hover{
     color: #b0ffa9;
 }
 
