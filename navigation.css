@@ -110,10 +110,14 @@ p {
     padding: 10px;
 }
 
+
 @media screen and (max-width: 768px) {
     body {
         background-image: none;
-      background-color: #daffd6;
+        background-color: #daffd6;
+    }
+    .text {
+        width: 90%;
     }
 }
 
