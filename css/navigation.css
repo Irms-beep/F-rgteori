@@ -1,7 +1,7 @@
 body {
     font-family:"Century Gothic";
     text-align: center;
-    background-image: url("img/webb_background.jpg");
+    background-image: url("/img/webb_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
